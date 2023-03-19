@@ -1,0 +1,56 @@
+
+
+
+body {
+
+  background-color:#1F2937;
+  color: black;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.logos{
+  font-size: 30px;
+  font-weight: bold;
+  color:darkslateblue;
+  font-family: fantasy;
+}
+
+.App {
+  background-image: url('https://cdn.pixabay.com/photo/2020/03/16/01/58/food-4935455_960_720.jpg');
+  display: flex;  
+  flex-wrap: wrap;
+  background-size: cover;
+  margin-top: 50px;
+  gap: 5rem;
+  grid-template-columns:auto auto auto;
+  background-color: #2196F3;
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 20px;
+  justify-content: center;
+  text-align: center;
+}
+.card{
+  margin-top: 60px;
+
+}
+
+.card-title{
+  font-size: 20px;
+  font-weight:  bold;
+  color: #483D8B;
+}
+
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
